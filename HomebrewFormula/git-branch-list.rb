@@ -1,3 +1,7 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at https://mozilla.org/MPL/2.0/.
+
 class GitBranchList < Formula
   desc "Maintains a list of Git branches that can be checked out quickly"
   homepage "https://github.com/teddywing/git-branch-list"
