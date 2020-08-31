@@ -5,8 +5,8 @@
 class GitSuggestion < Formula
   desc "Diffs and patches for GitHub pull request suggestions"
   homepage "https://github.com/teddywing/git-suggestion"
-  url "https://github.com/teddywing/git-suggestion/releases/download/v0.1.0/git-suggestion_0.1.0_x86_64-apple-darwin.tar.bz2"
-  sha256 "8cc72eed7c98372242026039b43301e121c2e92d8aa374f24f9bd89b1638ff74"
+  url "https://github.com/teddywing/git-suggestion/releases/download/v0.2.0/git-suggestion_0.2.0_x86_64-apple-darwin.tar.bz2"
+  sha256 "71dc7d89bc443f535cf86e36730ca9ba4bf08749064f68f6a52fb4a12fbece6d"
 
   def install
     bin.install Dir["bin/*"]
@@ -15,6 +15,6 @@ class GitSuggestion < Formula
 
   test do
     assert_equal version, shell_output("git sugapply --version").strip
-    assert_equal version, shell_output("git sugpatch --version").strip
+    assert_equal version, shell_output("git sugdiff --version").strip
   end
 end
