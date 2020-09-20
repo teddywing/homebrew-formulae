@@ -5,8 +5,8 @@
 class GitSuggestion < Formula
   desc "Diffs and patches for GitHub pull request suggestions"
   homepage "https://github.com/teddywing/git-suggestion"
-  url "https://github.com/teddywing/git-suggestion/releases/download/v0.2.0/git-suggestion_0.2.0_x86_64-apple-darwin.tar.bz2"
-  sha256 "71dc7d89bc443f535cf86e36730ca9ba4bf08749064f68f6a52fb4a12fbece6d"
+  url "https://github.com/teddywing/git-suggestion/releases/download/v0.2.1/git-suggestion_0.2.1_x86_64-apple-darwin.tar.bz2"
+  sha256 "bc0082885f99064242487c59ac4e2eb135f7817e8700120f0d6fcb0d54725351"
 
   def install
     bin.install Dir["bin/*"]
