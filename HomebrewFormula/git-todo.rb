@@ -5,8 +5,8 @@
 class GitTodo < Formula
   desc "Find recent TODO lines in a Git repository"
   homepage "https://github.com/teddywing/git-todo"
-  url "https://github.com/teddywing/git-todo/releases/download/v0.0.1/git-todo_0.0.1_x86_64-apple-darwin.tar.bz2"
-  sha256 "3fe702ea8f3ba8dc94cdb3653c21c42910cc1c4cd6eac0414978ef966a8e1995"
+  url "https://github.com/teddywing/git-todo/releases/download/v0.0.2/git-todo_0.0.2_x86_64-apple-darwin.tar.bz2"
+  sha256 "4001d6a058a8fb1e4e5aa3f2a3e969b94736966335e05aa8a7072733b3a4df4c"
 
   def install
     bin.install Dir["bin/*"]
