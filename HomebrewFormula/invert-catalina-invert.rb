@@ -15,19 +15,9 @@ class InvertCatalinaInvert < Formula
     prefix.install "Library/LaunchAgents/com.teddywing.invert-catalina-invert.plist" => "#{plist_name}.plist"
   end
 
-  def caveats; <<~EOS
-    To have launchd start invert-catalina-invert now and restart at startup:
-      brew services start invert-catalina-invert
-
-    The sudo-prefixed services command is unnecessary.
-  EOS
-  end
-
   def plist_name
     "com.teddywing.invert-catalina-invert"
   end
-
-  plist_options startup: true
 
   test do
     assert_equal version, shell_output("invert-catalina-invert --version").strip
