@@ -5,8 +5,8 @@
 class Formurapid < Formula
   desc "Fill in a PDF form using a text file"
   homepage "https://github.com/teddywing/formurapid"
-  url "https://github.com/teddywing/formurapid/releases/download/v0.0.1/formurapid_0.0.1_x86_64-apple-darwin.tar.bz2"
-  sha256 "4c66ad4098712f10d19b04c998071cd8de334b1bc5ac10fb6cb48b4446f03dd0"
+  url "https://github.com/teddywing/formurapid/releases/download/v0.0.2/formurapid_0.0.2_x86_64-apple-darwin.tar.bz2"
+  sha256 "e4b1cb0086d3f0b223f39ec068944ceb2b91af145341c32a6e4c15aa2a49a92d"
 
   def install
     bin.install Dir["bin/*"]
