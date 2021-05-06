@@ -5,8 +5,8 @@
 class PdfFormReplaceFont < Formula
   desc "Replace fonts in a PDF form's text fields"
   homepage "https://github.com/teddywing/pdf-form-replace-font"
-  url "https://github.com/teddywing/pdf-form-replace-font/releases/download/v0.0.1/pdf-form-replace-font_0.0.1_x86_64-apple-darwin.tar.bz2"
-  sha256 "429308aed5f60dc10306de3f040b030e04b36afbe460aa1771971270c85b7f08"
+  url "https://github.com/teddywing/pdf-form-replace-font/releases/download/v0.0.2/pdf-form-replace-font_0.0.2_x86_64-apple-darwin.tar.bz2"
+  sha256 "2839722df5db5331a93d2cdd6d1b19953c844a79d3537500c91cceddc865b3ef"
 
   def install
     bin.install Dir["bin/*"]
