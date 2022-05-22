@@ -6,7 +6,7 @@ class Wajir < Formula
   desc "Automatically watch Jira issues"
   homepage "https://github.com/teddywing/wajir"
   url "https://github.com/teddywing/wajir/releases/download/v0.0.1/wajir_0.0.1.tar.bz2"
-  sha256 "68a582ccf15e403f43a3617ed2699a9b2f17cbe3f2aa905eb153448e54ee6e7d"
+  sha256 "4cff7c473faeb3a819d1258bebffaf54fdb0ad29ce6dae9b9f3e3c3eafd7d37c"
 
   depends_on "sbcl"
 
@@ -14,6 +14,6 @@ class Wajir < Formula
     bin.mkpath
     man1.mkpath
 
-    system "make", "install", "PREFIX=#{prefix}"
+    system "make", "install", "prefix=#{prefix}"
   end
 end
