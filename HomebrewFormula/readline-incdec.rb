@@ -5,8 +5,8 @@
 class ReadlineIncdec < Formula
   desc "Readline bindings to increment and decrement numbers on the command line"
   homepage "https://github.com/teddywing/readline-incdec"
-  url "https://github.com/teddywing/readline-incdec/archive/refs/tags/v0.0.1.tar.gz"
-  sha256 "e9e28ca126cda963ad8a0792a18e5119884137f60586e700bc7da74bce20e413"
+  url "https://github.com/teddywing/readline-incdec/archive/refs/tags/v0.0.2.tar.gz"
+  sha256 "a984f4a29fb4fc15e9d6724a77c693ca73850385e931317e9903816fe0d7efef"
 
   def install
     prefix.install "incdec.bash", "incdec-bindings.bash"
