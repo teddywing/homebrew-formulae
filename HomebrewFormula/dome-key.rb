@@ -5,7 +5,6 @@
 class DomeKey < Formula
   desc "Control your computer with a pair of headphones"
   homepage "https://domekey.teddywing.com"
-  version "1.0"
   url "https://domekey.teddywing.com/downloads/dome-key_1.0.tar.bz2"
   sha256 "03fd038e1ae67ce1fce949d2d5fcafb50bbee2f4344b71c16577929c557718a1"
 
