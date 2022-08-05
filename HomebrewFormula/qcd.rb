@@ -13,15 +13,16 @@ class Qcd < Formula
     bash_completion.install "qcd.bash-completion" => "qcd"
   end
 
-  def caveats; <<-EOS.undent
-    qcd is a shell function, and must be sourced before it can be used.
-    Add the following command to your bash profile:
+  def caveats
+    <<-EOS
+      qcd is a shell function, and must be sourced before it can be used.
+      Add the following command to your bash profile:
 
-        source #{opt_prefix}/qcd
+          source #{opt_prefix}/qcd
 
-    To enable tab completion, add the following to your bash profile:
+      To enable tab completion, add the following to your bash profile:
 
-        source #{etc}/bash_completion.d/qcd
+          source #{etc}/bash_completion.d/qcd
     EOS
   end
 
