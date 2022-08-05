@@ -14,7 +14,7 @@ class Qcd < Formula
   end
 
   def caveats
-    <<-EOS
+    <<~EOS
       qcd is a shell function, and must be sourced before it can be used.
       Add the following command to your bash profile:
 
