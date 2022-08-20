@@ -5,9 +5,9 @@
 class Passextract < Formula
   desc "An interface to easily copy login information from Pass"
   homepage "https://github.com/teddywing/Passextract"
-  version "0.4.0"
-  url "https://github.com/teddywing/Passextract/releases/download/v0.4.0/passextract-0.4.0_osx_amd64.tar.bz2"
-  sha256 "622439d19d2cedde4c6666d29cc9fad5487083da3e26660b66910e2f469eb54e"
+  version "0.5.0"
+  url "https://github.com/teddywing/Passextract/releases/download/v0.5.0/passextract-0.5.0_osx_amd64.tar.bz2"
+  sha256 "665e7d37db2b8c54f815462e9b11f37bd80a16e22da3366be42f3ac863504e9f"
 
   def install
     bin.install "passextract"
