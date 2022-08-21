@@ -11,12 +11,11 @@ class InvertCatalinaInvert < Formula
 
   def install
     bin.install Dir["bin/*"]
-
-    prefix.install "Library/LaunchAgents/com.teddywing.invert-catalina-invert.plist" => "#{plist_name}.plist"
   end
 
-  def plist_name
-    "com.teddywing.invert-catalina-invert"
+  service do
+    run bin/"invert-catalina-invert"
+    run_type :immediate
   end
 
   test do
