@@ -5,13 +5,17 @@
 class Extreload < Formula
   desc "Reload Chrome extensions"
   homepage "https://github.com/teddywing/extreload"
-  url "https://github.com/teddywing/extreload/releases/download/v0.0.2/extreload_0.0.2_darwin-x86_64.tar.bz2"
+  url "https://github.com/teddywing/extreload/releases/download/v0.0.2/extreload_0.0.2.tar.bz2"
   version "0.0.2"
-  sha256 "30ad1e3838b95d8ab2a7a85129c8f6a56fbd5fb7debe33399869f4ff81da6726"
+  sha256 "e0c57d47eed35a8735ff5a6cd85eecbd21961fbf95a5a384977e91f11256c521"
+
+  depends_on "sbcl"
 
   def install
-    bin.install Dir["bin/*"]
-    man1.install Dir["share/man/man1/*"]
+    bin.mkpath
+    man1.mkpath
+
+    system "make", "install", "prefix=#{prefix}"
   end
 
   test do
