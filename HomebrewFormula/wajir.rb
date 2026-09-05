@@ -5,8 +5,8 @@
 class Wajir < Formula
   desc "Automatically watch Jira issues"
   homepage "https://github.com/teddywing/wajir"
-  url "https://github.com/teddywing/wajir/releases/download/v0.1.0/wajir_0.1.0.tar.bz2"
-  sha256 "eccab0db71d54e221344152dec2e506c08d864b272b14dcb0514a9c0b32bdf64"
+  url "https://github.com/teddywing/wajir/releases/download/v0.1.1/wajir_0.1.1.tar.bz2"
+  sha256 "29919de05ea50a5024f600a199d5e07e7bad7a6119b0b4324f66e684d4acaefb"
 
   depends_on "sbcl"
 
